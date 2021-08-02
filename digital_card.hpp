@@ -196,7 +196,7 @@ public:
                 std::cin >> subject;
                 digital_card.ListMarks(subject);
 
-            } else if (input == 3) {
+            } else if (input == 4) {
                 /* add a mark */
                 std::string subject;
                 int mark;
@@ -207,6 +207,7 @@ public:
                 digital_card.AddMark(subject, mark);
                
             } else if (input == 5) {
+                /* stop the program */
                 return;
             }
         }
